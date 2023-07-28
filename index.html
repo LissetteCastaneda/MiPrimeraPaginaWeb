@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--Doctype es la declaración de tipo de archivo-->
+<html lang="es">
+    
+     <head>
+        <meta charset="UTF-8">
+        <title>Mi primera página web</title>
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Edu+NSW+ACT+Foundation&family=Kalam&family=Ranchers&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Body es la estructura de la página -->
+        <h1>¡Página de Perritos!🐶✨</h1>
+        <h3>Imágenes de perritos tiernos</h3>
+        
+
+        <!--Imagen desde internet-->
+        <img src="https://pm1.aminoapps.com/6499/e4e9d7422388533d3740c6c384a77e61efb68a0d_hq.jpg">
+
+        <!--Imaen desde computadora-->
+        <img src="Imagenes/gran danes.jpg">
+
+        <!--Enlaces externos-->
+        <p>Si quieres ver más imágenes de perritos, <a href="https://www.google.com.mx/search?q=fondo+de+pantalla+perritos+tiernos&tbm=isch&hl=es-419&authuser=0&sa=X&ved=2ahUKEwjVg4Cnu7CAAxWVPN4AHURhApUQrNwCKAB6BQgBEKkB&biw=1272&bih=657#imgrc=GRmB2j3KD8KryM" target="_blank">da click en este enlace</a></p>
+
+        <!--Listas-->
+
+        <!--Lista Ordenada-->
+        <h3>Listas de perritos.</h3>
+        <p>3 cosas que los perritos <strong>aman</strong>:</p>
+        <ol> <!--Ordered List-->
+            <li>Jugar con sus peluches.</li>
+            <li>Correr en los parques.</li>
+            <li>Romper cosas.</li>
+        </ol>
+
+        <!--Lista Desordenada --> 
+        <p>3 cosas que los perritos <em>odian</em>:</p>
+        <ul><!--Unordered List-->
+            <li>No dejarlos comer en los muebles.</li>
+            <li>Estar encerrados.</li>
+            <li>Bañarse.</li>
+        </ul>
+
+        <!--Formularios-->
+        <form>
+            <h3>Formularios.</h3>
+
+            <!--Form con Botones de Radio-->
+            <p>¿Tu perrito es cachorro o adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro.
+            </label><br>
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto.
+            </label>
+
+            <!--Form con Casillas de Verificación--> 
+            <p>¿Qué tipo de personalidad tiene tu perro?</p>
+            <label>
+                <input id="enojón" type="checkbox" value="enojón" name="personalidad" checked>Enojón.
+            </label><br>
+            <label>
+                <input id="juguetón" type="checkbox" value="juguetón" name="personalidad" checked>Juguetón.
+            </label><br>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso.
+            </label>
+        </form>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/">Tecnolochicas PRO</a></small></p>
+        <h6><small>¡Te amo Carlos Álvarez!</small></h6>
+    </footer>
+</html>
